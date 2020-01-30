@@ -142,7 +142,9 @@ ul li:hover ul {
 .six {
 	width: 49%; 
 	float: left;
-	margin-left: 2%;
+	margin-left: 3%;
+	margin-top: -1.5%;
+
 }
 .five {
 	width: 40.5%; 
@@ -155,7 +157,7 @@ ul li:hover ul {
 	margin-left: 2%;
 }
 .three {
-	width: 23.5%;
+	width: 45%;
 	float:left;
 	margin-left: 2%;
 }
@@ -187,8 +189,8 @@ ul li:hover ul {
 	background-size: cover;
 }
 
-.row3 .six{
-	height: 333px;
+.row3 .three{
+	height: 700px;
     background-color: white;
     padding-bottom: 30px;
 }
@@ -216,20 +218,14 @@ ul li:hover ul {
 	background-color: lightblue; 
 }
 
+
+
 .row8 {
-	height: 130px;
-	background-color: #F2F2F2;
-	width: 100%;
-	clear: both; 
-	padding: 0px;
-	margin: 0px;
+	height: 80px;
+	background-color: #38393d;
+	padding-top: 8px;
 }
 
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-  }
 
 
 
@@ -258,6 +254,7 @@ ul li:hover ul {
 }
 
 .slide:nth-child(1){
+	
 }
 
 .slide:nth-child(2){
@@ -290,7 +287,9 @@ ul li:hover ul {
 .slide:nth-child(11){
     animation-delay: 50s;
 }
-
+.slide:nth-child(12){
+    animation-delay: 55s;
+}
 
 .row3, .row4, .row5, .row6, .row7{
 	padding-top: 30px;
@@ -317,7 +316,7 @@ ul li:hover ul {
     position: relative;
     width: 100%;
     height: 0;
-
+    background: #4c4c4c;
     padding-bottom: 45%;
    
     overflow: hidden;
@@ -372,69 +371,9 @@ a .secu:hover {
 	
 }
 
-.terc{
-	height: 333px;
-
-	
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-.qua{
-	height: 333px;
-
-	
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
 
 
-.um{
-	height: 333px;
 
-	
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-
-.dois{
-	height: 333px;
-
-	
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-
-.tres{
-	height: 333px;
-
-	
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-
-.quatro{
-	height: 333px;
-
-	
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
 
 a .um{
 	-webkit-transition: -webkit-transform 0.4s ease;
@@ -573,7 +512,7 @@ a .tres1:hover {
 
 .um2{
 	height: 333px;
-	
+
 	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -584,6 +523,7 @@ a .tres1:hover {
 
 .dois2{
 	height: 333px;
+
 	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -594,6 +534,7 @@ a .tres1:hover {
 
 .tres2{
 	height: 333px;
+
 	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -670,8 +611,8 @@ a .tres2:hover {
 }
 
 .main{
-    height: 333px;
-	
+    height: 700px;
+	background: url("cursos/cursos.jfif") no-repeat center center;	width: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -680,28 +621,5 @@ a .tres2:hover {
 
 .letra{
     color: #38393d;
-}
-
-.second{
-    height: 333px;
-	
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-
-
-
-.containercurso {
-	float: right;
-	width: 50%;
-}
-
-.limparfloats  {
-		content: "";
-		display: table;
-		clear: both;
 }
 
